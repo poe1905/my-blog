@@ -7,8 +7,8 @@ jobs:
 build-and-deploy:
 runs-on: ubuntu-latest
 steps:
-- name: Checkout
-uses: actions/checkout@master
+- name: poe1905
+uses: actions/poe1905@master
 - name: Build and Deploy
 uses: JamesIves/github-pages-deploy-action@master
 env:
